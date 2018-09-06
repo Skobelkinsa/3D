@@ -1,0 +1,27 @@
+<?
+$MESS["TITLE"] = "Заголовок блока";
+$MESS["TITLE_DEF"] = "Направление на ренгенологическое исследование";
+$MESS["INPUT_NAME"] = "Название поля 'Имя'";
+$MESS["INPUT_NAME_DEF"] = "Ф.И.О. пациента*";
+$MESS["ADR_TITLE"] = "Адрес клиники";
+$MESS["ADR_DEF"] = 'г. Пермь, ул. Революции, 21 <i class="fa fa-phone" aria-hidden="true"></i> 293-00-21';
+$MESS["INPUT_DOCTOR"] = "Врач";
+$MESS["INPUT_DOCTOR_DEF"] = "";
+$MESS["INPUT_DOCTOR_PHONE"] = "Контактный тел. клиники / Врача";
+$MESS["INPUT_DOCTOR_PHONE_DEF"] = "";
+$MESS["INPUT_AREA"] = "Область интереса:";
+$MESS["INPUT_AREA_DEF"] = "[8,7,6,5,4,3,2,1][1,2,3,4,5,6,7,8]";
+$MESS["INPUT_TOMOGRAPHY"] = "Конусно-лучевая компьютерная томография:";
+$MESS["INPUT_TOMOGRAPHY_DEF"] = "КТ обеих челюстей";
+$MESS["INPUT_RADIOGRAPHY"] = "Цифровая рентгенография";
+$MESS["INPUT_RADIOGRAPHY_DEF"] = "Ортопантомограмма (ОПТГ)";
+$MESS["RADIOGRAPHY_INFO"] = "*";
+$MESS["RADIOGRAPHY_INFO_DEF"] = "Телеренгенограмма (ТРГ) - только на ул. Ленина, 92";
+$MESS["INPUT_ADD"] = "Дополнительно:";
+$MESS["INPUT_ADD_DEF"] = "Расчет ТРГ";
+$MESS["INPUT_DOCTOR_COMMENTS"] = "Комментрий врача";
+$MESS["INPUT_DOCTOR_COMMENTS_DEF"] = "";
+$MESS["POLY"] = "Текст политики конф.";
+$MESS["POLY_DEF"] = "Я согласен на обработку моих персональных данных в соотстветствии с <a href='#'>политикой конфиденциальности</a> данного сайта";
+$MESS["PATH"] = "Путь до обработчика формы";
+$MESS["PATH_DEF"] = "/_inc/feedback.php";

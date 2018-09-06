@@ -1,0 +1,40 @@
+.direction-study {
+  padding-bottom: 20px; }
+  .direction-study_alerts {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff7000; }
+  .direction-study_labels input:checked + label {
+    border-color: black; }
+  .direction-study_labels label {
+    font-size: 20px;
+    border: 1px solid transparent;
+    padding: 0 3px;
+    margin-right: 3px;
+    cursor: pointer; }
+  .direction-study_labels div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px; }
+  .direction-study_labels div:nth-child(1),
+  .direction-study_labels div:nth-child(2) {
+    border-bottom: 1px solid; }
+  .direction-study_labels div:nth-child(1),
+  .direction-study_labels div:nth-child(3) {
+    border-right: 1px solid; }
+  .direction-study_title {
+    padding: 15px 0; }
+  .direction-study .form-group_line {
+    display: flex; }
+  .direction-study .form-group_title {
+    margin-bottom: 15px;
+    display: block; }
+  .direction-study input[type="text"] {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid;
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

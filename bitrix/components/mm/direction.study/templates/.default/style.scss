@@ -1,0 +1,55 @@
+.direction-study{
+  padding-bottom: 20px;
+  &_alerts{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff7000;
+  }
+  &_labels{
+    input:checked+label{
+      border-color: black;
+    }
+    label{
+      font-size: 20px;
+      border: 1px solid transparent;
+      padding: 0 3px;
+      margin-right: 3px;
+      cursor: pointer;
+    }
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 5px;
+    }
+    div:nth-child(1),
+    div:nth-child(2){
+      border-bottom: 1px solid;
+    }
+    div:nth-child(1),
+    div:nth-child(3){
+      border-right: 1px solid;
+    }
+  }
+  &_title{
+    padding: 15px 0;
+  }
+  .form-group{
+    &_line{
+      display: flex;
+    }
+    &_title{
+      margin-bottom: 15px;
+      display: block;
+    }
+  }
+  input[type="text"]{
+    border: {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 1px solid;
+    }
+    width: 100%;
+  }
+}
